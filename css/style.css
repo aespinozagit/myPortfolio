@@ -232,7 +232,7 @@ textarea.form-control {
 .pfblock {
 	padding: 120px 0 100px;
 	background: #fff;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 .pfblock-gray {
