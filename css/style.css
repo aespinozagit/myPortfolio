@@ -386,7 +386,8 @@ textarea.form-control {
 	left: 0;
 }
 
-#video-bg-elem {
+#video-bg-elem,
+.mobileCover {
 	overflow-x: hidden;
 	position: fixed;
 	top: 0;
@@ -401,6 +402,10 @@ textarea.form-control {
 		 -o-background-size: cover;
 			background-size: cover;
 	padding: 0;
+}
+
+.mobileCover {
+	display: none;
 }
 
 .intro {
@@ -461,13 +466,13 @@ textarea.form-control {
    background-position: 50% 50%;
 }
 
-#myImage:hover {
+/*#myImage:hover {
    background-image: url('../images/self2.jpg');
    height: 400px;
    width: 400px;
    background-repeat: no-repeat;
    transition: all 2s ease;
-}
+}*/
 
 
 /* ---------------------------------------------- /*
@@ -830,6 +835,14 @@ textarea.form-control {
 	.certSection {
 		text-align: center;
 		font-size: 12px;
+	}
+
+	.videoBg {
+		display: none;
+	}
+
+	.mobileCover {
+		display: block;
 	}
 }
 

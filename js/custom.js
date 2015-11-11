@@ -101,6 +101,28 @@
 
 		});
         
+        /*----------------------------------------------------*/
+		/* Chance backgroud to gif when on mobile
+		------------------------------------------------------*/
+	 //    $(window).on('scroll', function() {
+
+		// 	var h = $('nav').height();
+		// 	var y = $(window).scrollTop();
+	 //      	var nav = $('#tf-menu');
+
+		//    if ((y > h + 30 ) && ($(window).outerWidth() > 768 ) ) {
+		//       nav.addClass('opaque');
+		//    }
+	 //      else {
+	 //         if (y < h + 30) {
+	 //            nav.removeClass('opaque');
+	 //         }
+	 //         else {
+	 //            nav.addClass('opaque');
+	 //         }
+	 //      }
+
+		// });
         /* ---------------------------------------------- /*
 		 * Skills
         /* ---------------------------------------------- */    
