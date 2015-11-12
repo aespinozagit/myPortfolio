@@ -106,9 +106,9 @@
 		------------------------------------------------------*/
 	   var width = $(window).width();{
 
-		   	if (width <= 768) {
+		   	if (width <= 769) {
 
-		   	$('<img src="videos/cover2.gif" class="mobileCover">').appendTo('.background-wrap');		      
+		   	$('<img src="images/cover.jpg" class="mobileCover">').appendTo('.background-wrap');		      
 
 		   } else {
 
