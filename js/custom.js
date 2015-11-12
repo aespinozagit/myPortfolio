@@ -104,25 +104,19 @@
         /*----------------------------------------------------*/
 		/* Chance backgroud to gif when on mobile
 		------------------------------------------------------*/
-	 //    $(window).on('scroll', function() {
+	   var width = $(window).width();{
 
-		// 	var h = $('nav').height();
-		// 	var y = $(window).scrollTop();
-	 //      	var nav = $('#tf-menu');
+		   	if (width <= 767) {
 
-		//    if ((y > h + 30 ) && ($(window).outerWidth() > 768 ) ) {
-		//       nav.addClass('opaque');
-		//    }
-	 //      else {
-	 //         if (y < h + 30) {
-	 //            nav.removeClass('opaque');
-	 //         }
-	 //         else {
-	 //            nav.addClass('opaque');
-	 //         }
-	 //      }
+		   	$('<img src="videos/cover.gif" class="mobileCover">').appendTo('.background-wrap');		      
 
-		// });
+		   } else {
+
+		      $('<video class="videoBg" src="videos/video4.mp4" id="video-bg-elem" autoplay loop muted></video>').appendTo('.background-wrap');
+
+		   }
+
+		   }
         /* ---------------------------------------------- /*
 		 * Skills
         /* ---------------------------------------------- */    
