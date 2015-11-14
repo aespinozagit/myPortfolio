@@ -795,9 +795,8 @@ textarea.form-control {
 /* ---------------------------------------------- /*
  * Preloader
 /* ---------------------------------------------- */
-
 #preloader {
-	background: rgba(255,255,255,.9);
+	background: #12151b;
 	bottom: 0;
 	left: 0;
 	position: fixed;
@@ -807,7 +806,7 @@ textarea.form-control {
 }
 
 #status {
-	background-image: url(../images/preloader2.GIF);
+	background-image: url(../images/preloader.GIF);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 200px;

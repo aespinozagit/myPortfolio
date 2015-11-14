@@ -15,6 +15,23 @@
 
 	$(document).ready(function() {
 
+	/*----------------------------------------------------*/
+	/* Chance backgroud to gif when on mobile
+	------------------------------------------------------*/
+   	var width = $(window).width();{
+
+	   	if (width <= 769) {
+
+	   	$('<img src="videos/cover.gif" class="mobileCover">').appendTo('.background-wrap');		      
+
+	   } else {
+
+	      $('<video class="videoBg" src="videos/video4.mp4" id="video-bg-elem" autoplay loop muted></video>').appendTo('.background-wrap');
+
+	   }
+
+	}
+
 		/* ---------------------------------------------- /*
 		 * Smooth scroll / Scroll To Top
 		/* ---------------------------------------------- */
@@ -101,22 +118,6 @@
 
 		});
         
-        /*----------------------------------------------------*/
-		/* Chance backgroud to gif when on mobile
-		------------------------------------------------------*/
-	   var width = $(window).width();{
-
-		   	if (width <= 769) {
-
-		   	$('<img src="images/cover.jpg" class="mobileCover">').appendTo('.background-wrap');		      
-
-		   } else {
-
-		      $('<video class="videoBg" src="videos/video4.mp4" id="video-bg-elem" autoplay loop muted></video>').appendTo('.background-wrap');
-
-		   }
-
-		   }
         /* ---------------------------------------------- /*
 		 * Skills
         /* ---------------------------------------------- */    
