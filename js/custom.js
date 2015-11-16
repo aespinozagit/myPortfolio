@@ -26,7 +26,7 @@
 
 	   } else {
 
-	      $('<video class="videoBg" src="videos/video4.mp4" id="video-bg-elem" autoplay loop muted></video>').appendTo('.background-wrap');
+	      $('<video src="videos/video4.mp4" id="video-bg-elem" autoplay loop muted></video>').appendTo('.background-wrap');
 
 	   }
 
