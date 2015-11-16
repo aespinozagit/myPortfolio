@@ -22,7 +22,7 @@
 
 	   	if (width <= 769) {
 
-	   	$('<img src="videos/cover.gif" class="mobileCover">').appendTo('.background-wrap');		      
+	   	$('<img src="videos/cover.gif" id="mobileCover">').appendTo('.background-wrap');		      
 
 	   } else {
 
