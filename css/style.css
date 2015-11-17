@@ -845,12 +845,14 @@ textarea.form-control {
 @media (max-width: 767px) {
 
 	.calltoaction {
+		overflow-x: none; 
 		text-align: center;
 	}
 	
 	.certSection {
+		overflow-x: none; 
 		text-align: center;
-		font-size: 12px;
+		font-size: 11px;
 	}
 }
 
