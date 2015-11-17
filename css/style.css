@@ -827,7 +827,7 @@ textarea.form-control {
 }
 
 #status {
-	background-image: url(../images/preloader.GIF);
+	background-image: url(../images/preloader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 200px;
